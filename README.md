@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 </div>
 
+<div align="center">
+<img src="full-image.png">
+</div>
+
 ## 📑 Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Architecture Overview](#2-architecture-overview)
