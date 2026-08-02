@@ -2,7 +2,7 @@
 # 1. PROVIDER VE BÖLGE AYARLARI
 # ==========================================
 provider "aws" {
-  region = "eu-central-1" # Frankfurt bölgesi (İsteğine göre değiştirebilirsin)
+  region = "eu-central-1" # Frankfurt bölgesi (İsteğine göre değiştirilebilir)
 }
 
 # ==========================================
@@ -207,7 +207,7 @@ resource "aws_instance" "docker_host" {
         container_name: todo_db
         environment:
           - POSTGRES_USER=postgres
-          - POSTGRES_PASSWORD=A123456a*1
+          - POSTGRES_PASSWORD=Guclusifre*1234
           - POSTGRES_DB=tododb
         networks:
           - backend-network
@@ -219,7 +219,7 @@ resource "aws_instance" "docker_host" {
           - DB_HOST=db
           - DB_PORT=5432
           - DB_USER=postgres
-          - DB_PASS=A123456a*1
+          - DB_PASS=Guclusifre*1234
           - DB_NAME=tododb
         networks:
           - frontend-network

@@ -6,7 +6,7 @@ services:
     container_name: todo_db
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=A123456a*1
+      - POSTGRES_PASSWORD=Guclusifre*1234
       - POSTGRES_DB=tododb
     ports:
       - "5432:5432"
@@ -18,7 +18,7 @@ services:
       - DB_HOST=db
       - DB_PORT=5432
       - DB_USER=postgres
-      - DB_PASS=A123456a*1
+      - DB_PASS=Guclusifre*1234
       - DB_NAME=tododb
     depends_on:
       - db
